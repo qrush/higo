@@ -1,4 +1,4 @@
-pwd = ENV['PWD']
+pwd  = `pwd`.strip
 port = ARGV[0]
 
 puts "starting this up!"
