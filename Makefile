@@ -1,12 +1,12 @@
-include $(GOROOT)/src/Make.inc
+include vendor/Make.inc
 
 TARG=higo
 GOFMT=gofmt
 
 GOFILES=\
-				main.go\
+				higo.go\
 
-include $(GOROOT)/src/Make.cmd
+include vendor/Make.cmd
 
 format:
 	${GOFMT} -w ${GOFILES}
