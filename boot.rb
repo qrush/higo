@@ -1,14 +1,5 @@
-chmod = `chmod -v 755 higo`
-print chmod
-puts "LS SOMETHING"
-puts
-dir = `ls -lah`
-print dir
+make = `make`
+print make
 
 port = ARGV[0]
-puts
-puts "uname"
-dir = `uname -a`
-print dir
-puts
 system "./higo -port #{port}"
