@@ -1,1 +1,1 @@
-web: ruby boot.rb $PORT
+web: bundle exec rake PORT=$PORT

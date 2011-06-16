@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/paulbellamy/mango"
+	"./mango"
 	"flag"
 )
 
