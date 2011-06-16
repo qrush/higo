@@ -1,1 +1,1 @@
-web: ruby -e "system './higo -port $PORT'"
+web: ruby -e "system %{#{ENV['PWD']}/higo -port $PORT}"
