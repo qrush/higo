@@ -7,8 +7,8 @@ print dir
 
 port = ARGV[0]
 puts
-puts "CUR DIR"
-dir = `ls -lah ./`
+puts "uname"
+dir = `uname -a`
 print dir
 puts
 system "./higo -port #{port}"
