@@ -1,4 +1,6 @@
 pwd  = `pwd`.strip
+dir = `ls -lah`
+print dir
 port = ARGV[0]
 
 puts "starting this up!"
