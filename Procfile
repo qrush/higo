@@ -1,1 +1,1 @@
-web: ruby -e "exec './higo -port 3001'"
+web: ruby -e "exec './higo -port $PORT'"
